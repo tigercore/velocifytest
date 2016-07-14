@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foundation for Sites</title>
     <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
 
 
 </head>
@@ -14,24 +15,26 @@
 <body>
 
     <div class="row">
-      <div class="large-6 large-push-3 columns">
-        <h3>Velocify Integration Test</h3>
+      	<div class="large-6 large-push-3 columns">
 
-        <form method="POST" action="https://secure.velocify.com/Import.aspx?Provider=TeddToddInsuranceWeb&Client=30364&CampaignId=68">
-			
-			<label for="first_name" class="required">First Name</label>
-			<input class="first_name" type="text" name="first_name" value="Ryan">
+	      	<div class="callout">
+	      		<h4>TedTodd/Velocify Integration test</h4>
 
-			<label for="last_name" class="required">Last Name</label>
-			<input class="last_name" type="text" name="last_name" value="Kelly">
+				<form method="POST" action="https://secure.velocify.com/Import.aspx?Provider=TeddToddInsuranceWeb&Client=30364&CampaignId=68&url=https://tigercore.github.io/velocifytest/success.html">
+					
+					<label for="first_name" class="required">First Name</label>
+					<input class="first_name" type="text" name="first_name" value="Ryan">
 
-			<label for="universal_leadid" class="required">LeadID</label>
-			<input class="universal_leadid" type="text" name="universal_leadid" value="LEADID_TEST_STRING">
-			
-			<input type="submit" value="Submit">
-		</form>
-		
-      </div>
+					<label for="last_name" class="required">Last Name</label>
+					<input class="last_name" type="text" name="last_name" value="Kelly">
+
+					<label for="universal_leadid" class="required">LeadID</label>
+					<input class="universal_leadid" type="text" name="universal_leadid" value="LEADID_TEST_STRING">
+					
+					<input type="submit" value="Submit" class="success button">
+				</form>
+			</div>
+    	</div>
     </div>
 
 
